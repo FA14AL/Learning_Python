@@ -5,4 +5,4 @@
 #
 # Then finally did the project of that day which was on the problem 'Maze'.
 #
-# Learnt about python functions and its usage and while loop and its usage as well.
+# Learnt and implemented python functions, while loop and for loop as well.
