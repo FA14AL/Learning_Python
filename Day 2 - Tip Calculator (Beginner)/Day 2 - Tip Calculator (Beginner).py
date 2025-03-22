@@ -7,4 +7,3 @@ total_tip_amount = bill*tip_as_percent
 total_bill_amount = bill + total_tip_amount
 bill_per_person = round(total_bill_amount/people,2)
 print(f"Each person should pay: ${bill_per_person}")
-
