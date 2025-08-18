@@ -3,8 +3,6 @@ import random
 print(logo)
 user_difficulty = input("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100.\nChoose a difficulty. Type 'easy' or 'hard':").lower()
 number = random.randint(1,100)
-print(number)
-
 
 if user_difficulty == 'easy':
     for i in range (1,11):
