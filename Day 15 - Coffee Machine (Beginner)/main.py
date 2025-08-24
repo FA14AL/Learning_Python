@@ -51,10 +51,10 @@ def process_coins():
 
 def check_transaction(money_received, drinks_cost):
     if money_received > drinks_cost:
-        money_left = money_received - drinks_cost
+        change = round(money_received - drinks_cost, 2)
         global profit
         profit += drinks_cost
-        print(f"Here is ${money_left} in change.")
+        print(f"Here is ${change} in change.")
         return True
     else :
         print("Sorry that's not enough money. Money refunded.")
