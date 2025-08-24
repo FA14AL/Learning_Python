@@ -39,7 +39,7 @@ def resources_sufficient(order_ingredients):
         if order_ingredients[item] > resources[item]:
             print(f"Sorry! There is not enough {item}.")
             return False
-        return True
+    return True
 
 def process_coins():
     print("Please enter coins.")
